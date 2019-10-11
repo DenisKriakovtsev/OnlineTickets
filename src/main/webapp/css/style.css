@@ -1,0 +1,39 @@
+.mainPage{
+    background-image: url("../img/main.jpg");
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    position: relative;
+}
+h1{
+    text-shadow:1px 1px 0 #444;
+}
+.titleMain{
+    text-shadow:5px 3px 0 #000; 
+    color:white;
+    font-weight: bold; 
+    font-size: 60px;
+}
+#form,#form2{
+    display: inline-block;
+}
+.optionStadium{
+    position: absolute;
+    top:100px;
+    right:30px;
+}
+.stadiumBuyTicket{
+    background-image: url('../img/stadion.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  
+} 
+.stadiumBuyTicket input {
+    width: 30%;
+        max-width: 50%;
+}
